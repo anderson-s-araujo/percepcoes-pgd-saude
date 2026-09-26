@@ -6,13 +6,22 @@ Este repositório contém os dados, ficheiros de extração e scripts de suporte
 
 ## Estrutura do Diretório
 
-- \dados/\:
-  - \Brutos/\: Ficheiros PDF dos estudos incluídos (\S001.pdf\ a \S011.pdf\) e exportações originais (Rayyan).
-  - \processados/\: Matrizes consolidadas de extração (\extracao_estudos.csv\).
-  - \
-Resultados/\: Tabelas cruzadas e dados sintetizados.
-- \documentos/\: Notas metodológicas, protocolos e figuras analíticas (\documentos/figuras/\).
-- \scripts/\: Rotinas em Python para validação, população de matrizes e geração de gráficos analíticos.
+* `\dados/`
+  * `\Brutos/`: Ficheiros PDF dos estudos incluídos (`\S001.pdf` a `\S011.pdf`) e exportações originais.
+  * `\processados/`: Matrizes consolidadas de extração (`extracao_estudos.csv`) e scripts de automação (`gerar_mapa_calor_custos_ferramentas.py`, `gerar_grafico_atores_paises.py`, etc.).
+* `\documentos/`
+  * `\figuras/`: Figuras analíticas geradas e atualizadas:
+    * `figura_resultado_paises_tese.png` (Distribuição geográfica)
+    * `figura_resultado_ferramentas_tese.png` (Ferramentas de PGD)
+    * `figura_resultado_custos_tese.png` (Custos e barreiras)
+    * `figura_resultado_fair_tese.png` (Níveis FAIR)
+    * `figura_resultado_delineamento_tese.png` (Delineamento metodológico)
+    * `figura_heatmap_custos_ferramentas.png` (Mapa de calor: Ferramentas vs. Custos)
+    * `figura_resultado_atores_paises.png` (Cruzamento de Atores de Apoio por País)
+  * `tabelas_resultados_tese.md`: Tabela de caracterização geral do corpus (S001–S011).
+  * `estatisticas_tese.md`: Relatório descritivo automatizado do corpus.
+* `\scripts/`
+  * Rotinas em Python para validação, população de matrizes, estatísticas e geração de gráficos analíticos.
 
 ## Ambiente de Execução
 
