@@ -1,4 +1,4 @@
-﻿# Projeto de Doutoramento: Extração e Análise de Dados de Revisão
+﻿# Extração e Análise de Dados de Revisão
 
 [![DOI](https://zenodo.org/badge/1375773992.svg)](https://doi.org/10.5281/zenodo.22875538)
 
